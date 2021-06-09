@@ -1,0 +1,26 @@
+{
+    "name": "gssc/illuminate-route-attributes",
+    "description": "PHP8 attributes auto register routes for laravel/lumen",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lukasz Grajewski",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GSSC\\Routes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GSSC\\Routes\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "~7.0|~8.0"
+    }
+}
